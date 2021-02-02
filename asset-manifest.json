@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dine-Out-Task-1/static/css/main.c8455078.chunk.css",
+    "main.js": "/Dine-Out-Task-1/static/js/main.5dd49f0d.chunk.js",
+    "main.js.map": "/Dine-Out-Task-1/static/js/main.5dd49f0d.chunk.js.map",
+    "runtime-main.js": "/Dine-Out-Task-1/static/js/runtime-main.bcfd3c46.js",
+    "runtime-main.js.map": "/Dine-Out-Task-1/static/js/runtime-main.bcfd3c46.js.map",
+    "static/js/2.cabb3ad4.chunk.js": "/Dine-Out-Task-1/static/js/2.cabb3ad4.chunk.js",
+    "static/js/2.cabb3ad4.chunk.js.map": "/Dine-Out-Task-1/static/js/2.cabb3ad4.chunk.js.map",
+    "static/js/3.6f08e451.chunk.js": "/Dine-Out-Task-1/static/js/3.6f08e451.chunk.js",
+    "static/js/3.6f08e451.chunk.js.map": "/Dine-Out-Task-1/static/js/3.6f08e451.chunk.js.map",
+    "index.html": "/Dine-Out-Task-1/index.html",
+    "static/css/main.c8455078.chunk.css.map": "/Dine-Out-Task-1/static/css/main.c8455078.chunk.css.map",
+    "static/js/2.cabb3ad4.chunk.js.LICENSE.txt": "/Dine-Out-Task-1/static/js/2.cabb3ad4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcfd3c46.js",
+    "static/js/2.cabb3ad4.chunk.js",
+    "static/css/main.c8455078.chunk.css",
+    "static/js/main.5dd49f0d.chunk.js"
+  ]
+}
