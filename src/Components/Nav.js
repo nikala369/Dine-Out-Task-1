@@ -43,7 +43,7 @@ function Navbar() {
       <>
     <nav className="nav-menu">
           <button className={hoverNav ? 'fixedbutton' : 'smaller-button'}>
-            <img className="img-space" src={Filterimg}/>
+            <img className="img-space filter-control" src={Filterimg}/>
             <span className={hoverNav ?'control-text-button': 'remove-text'}>Filter</span>
             <span className={!notification ? "notification" : 'remove-notification'}>4</span>
           </button>
