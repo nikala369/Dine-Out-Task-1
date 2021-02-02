@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dine-Out-Task-1/static/css/main.3f783bd7.chunk.css",
+    "main.css": "/Dine-Out-Task-1/static/css/main.d6e690c7.chunk.css",
     "main.js": "/Dine-Out-Task-1/static/js/main.ecf2dafb.chunk.js",
     "main.js.map": "/Dine-Out-Task-1/static/js/main.ecf2dafb.chunk.js.map",
     "runtime-main.js": "/Dine-Out-Task-1/static/js/runtime-main.bcfd3c46.js",
@@ -10,13 +10,13 @@
     "static/js/3.6f08e451.chunk.js": "/Dine-Out-Task-1/static/js/3.6f08e451.chunk.js",
     "static/js/3.6f08e451.chunk.js.map": "/Dine-Out-Task-1/static/js/3.6f08e451.chunk.js.map",
     "index.html": "/Dine-Out-Task-1/index.html",
-    "static/css/main.3f783bd7.chunk.css.map": "/Dine-Out-Task-1/static/css/main.3f783bd7.chunk.css.map",
+    "static/css/main.d6e690c7.chunk.css.map": "/Dine-Out-Task-1/static/css/main.d6e690c7.chunk.css.map",
     "static/js/2.cabb3ad4.chunk.js.LICENSE.txt": "/Dine-Out-Task-1/static/js/2.cabb3ad4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bcfd3c46.js",
     "static/js/2.cabb3ad4.chunk.js",
-    "static/css/main.3f783bd7.chunk.css",
+    "static/css/main.d6e690c7.chunk.css",
     "static/js/main.ecf2dafb.chunk.js"
   ]
 }
