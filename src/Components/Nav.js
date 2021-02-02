@@ -45,15 +45,15 @@ function Navbar() {
           <button className={hoverNav ? 'fixedbutton' : 'smaller-button'}>
             <img className="img-space" src={Filterimg}/>
             <span className={hoverNav ?'control-text-button': 'remove-text'}>Filter</span>
-            <span className={!hoverNav ? "notification" : 'remove-notification'}>4</span>
+            <span className={!notification ? "notification" : 'remove-notification'}>4</span>
           </button>
           <ul onScroll={scrollChange} id="ulmain" className="ul-main">
             <li className="space-link"><img className="img-space" src={Pizza} alt="Pizza section"/>Pizza</li>
             <li><img className="img-space" src={Chicken} alt="Chicken section"/>Chiken</li>
             <li><img className="img-space" src={Burger} alt="Burger section"/>Burgers</li>
             <li><img className="img-space" src={Chinese} alt="Chinese food section"/>Chinese</li>
-            <li><img className="img-space" src={Thai} alt="Thai section"/>Thai</li>
-            <li><img className="img-space" src={Asian} alt="Asian Food section"/>Asian</li>
+            <li> <img className="img-space" src={Thai} alt="Thai section" />Thai</li>
+            <li> <img className="img-space" src={Asian} alt="Asian Food section" />Asian</li>
             <li><img className="img-space" src={Indian} alt="Indian food section"/>Indian</li>
             <li><img className="img-space" src={Sushi} alt="Sushi section"/>Sushi</li>
             <li><img className="img-space" src={Italian} alt="Italian food section"/>Italian</li>
