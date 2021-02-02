@@ -48,18 +48,18 @@ function Navbar() {
             <span className={!hoverNav ? "notification" : 'remove-notification'}>4</span>
           </button>
           <ul onScroll={scrollChange} id="ulmain" className="ul-main">
-            <li className="space-link"><img className="img-space" src={Pizza}/>Pizza</li>
-            <li><img className="img-space" src={Chicken}/>Chiken</li>
-            <li><img className="img-space" src={Burger}/>Burgers</li>
-            <li><img className="img-space" src={Chinese}/>Chinese</li>
-            <li><img className="img-space" src={Thai}/>Thai</li>
-            <li><img className="img-space" src={Asian}/>Asian</li>
-            <li><img className="img-space" src={Indian}/>Indian</li>
-            <li><img className="img-space" src={Sushi}/>Sushi</li>
-            <li><img className="img-space" src={Italian}/>Italian</li>
-            <li><img className="img-space" src={Desert}/>Desert</li>
-            <li><img className="img-space" src={Healthy}/>Healthy</li>
-            <li><img className="img-space" src={Breakfast}/>Breakfast</li>
+            <li className="space-link"><img className="img-space" src={Pizza} alt="Pizza section"/>Pizza</li>
+            <li><img className="img-space" src={Chicken} alt="Chicken section"/>Chiken</li>
+            <li><img className="img-space" src={Burger} alt="Burger section"/>Burgers</li>
+            <li><img className="img-space" src={Chinese} alt="Chinese food section"/>Chinese</li>
+            <li><img className="img-space" src={Thai} alt="Thai section"/>Thai</li>
+            <li><img className="img-space" src={Asian} alt="Asian Food section"/>Asian</li>
+            <li><img className="img-space" src={Indian} alt="Indian food section"/>Indian</li>
+            <li><img className="img-space" src={Sushi} alt="Sushi section"/>Sushi</li>
+            <li><img className="img-space" src={Italian} alt="Italian food section"/>Italian</li>
+            <li><img className="img-space" src={Desert} alt="Desert section"/>Desert</li>
+            <li><img className="img-space" src={Healthy} alt="Healthy section"/>Healthy</li>
+            <li><img className="img-space" src={Breakfast} alt="Breakfast section"/>Breakfast</li>
             <li><Link style={{color: '#FC6C44'}} to="/">See all</Link></li>
           </ul>
       </nav>
