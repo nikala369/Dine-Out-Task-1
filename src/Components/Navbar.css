@@ -50,7 +50,6 @@
   line-height: 18.75px;
   position: relative;
   left: 520px;
-  top: -3.5px;
   margin-left: 22px;
 }
 
@@ -80,6 +79,7 @@
 }
 
 .smaller-button {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,17 +112,21 @@
 
 .img-space {
   margin: 5px;
+  margin-bottom: 10px;
 }
 
 .remove-notification {
-  display: none;
+  background-color: white;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
 }
 
 .notification {
-  display: block;
+  visibility: visible;
   position: absolute;
-  top: 248px;
-  left: 45px;
+  top: -3px;
+  left: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
