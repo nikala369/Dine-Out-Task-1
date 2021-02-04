@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
+import './fonts/einafont.ttf';
 import Pizza from './images/pizza.png';
 import Filterimg from './images/slider_03.png';
 import Chicken from './images/chiken.png';

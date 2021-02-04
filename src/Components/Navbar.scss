@@ -1,7 +1,12 @@
-$regular-fontFamily-for-mobile-navbar: Eina03-SemiBold;
+@font-face {
+  font-family: 'Eina 04 W03 SemiBold';
+  src: local('Eina 04 W03 SemiBold'), url(./fonts/einafont.ttf) format('truetype');
+}
+$regular-fontFamily-for-mobile-navbar: Eina 04 W03 SemiBold;
+
 $regular-fontSize-for-mobile-navbar: 16px;
 $button-background-color: #757fbd;
-@font-face {font-family: "Eina03-SemiBold"; src: url("//db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.eot"); src: url("//db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.woff") format("woff"), url("//db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.svg#Eina03-SemiBold") format("svg"); }
+
 
 .nav-menu {
   height: 305px;
@@ -10,6 +15,7 @@ $button-background-color: #757fbd;
   align-items: flex-end;
   background-color: white;
   font-family: $regular-fontFamily-for-mobile-navbar;
+  font-weight: 600;
   }
 .ul-main {
   display: flex;
@@ -28,8 +34,9 @@ $button-background-color: #757fbd;
   font-family: $regular-fontFamily-for-mobile-navbar;
   line-height: 18.75px;
   position: relative;
-  left: 520px;
+  left: 514px;
   margin-left: 22px;
+  top: -3px;
   }
 
 .fixedbutton {
@@ -38,6 +45,7 @@ $button-background-color: #757fbd;
   justify-content: center;
   align-items: center;
   font-family: $regular-fontFamily-for-mobile-navbar;
+  font-weight: 600;
   font-size: 16px;
   width: 84px;
   min-width: 84px;
@@ -68,14 +76,14 @@ $button-background-color: #757fbd;
   cursor: pointer;
 }
 .control-text-button {
-  margin-top: 2.5px;
+  margin-top: -1px;
 }
 .remove-text {
   display: none;
 }
 .img-space {
   margin: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .filter-control {
   margin-top: 6.5px;
